@@ -1,0 +1,24 @@
+#tartalom{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-areas: 'me me fo  be be';
+                     'me me fo  ba jo';
+                     'ke os el  el el';
+
+
+}
+#bejelentkezes{
+grid-area: be;
+
+
+
+
+}
+
+#baltartalom{
+
+grid-area: ba;
+
+
+}
